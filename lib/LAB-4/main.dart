@@ -39,7 +39,7 @@ class _MyHomePageState extends State<MyHomePage> {
           itemBuilder: (BuildContext context, int index) {
             FoodMenu food=menu[index];
           return ListTile(
-            leading: Image.asset(food.img),
+            leading: Image.asset(food.img,fit: BoxFit.cover,width: 100,),
             title: Text(food.name,style: TextStyle(fontSize: 25),),
             subtitle: Text("ราคา "+food.price+" บาท"),
           );
