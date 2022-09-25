@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
               borderSide: BorderSide.none,
             ),
           )),
-      home: Lobby(),
+      home: WelcomeScreen(),
     );
   }
 }

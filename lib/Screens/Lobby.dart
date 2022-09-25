@@ -13,9 +13,9 @@ class Lobby extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[300],
+      backgroundColor: Colors.white,
       appBar: AppBar(
-        backgroundColor: Colors.grey[900],
+        backgroundColor: Color(0xFF6F35A5),
         title: Text('C H U B E A M'),
         actions: [
           IconButton(
@@ -35,13 +35,13 @@ class Lobby extends StatelessWidget {
             child: Container(
               padding: EdgeInsets.all(30),
               decoration: BoxDecoration(
-                  color: Colors.grey[200],
+                  color: Color(0xFFF1E6FF),
                   borderRadius: BorderRadius.circular(12)),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    "FOOD MENU_1",
+                    "FOOD MENU",
                     style: TextStyle(fontSize: 18),
                   ),
                   IconButton(
@@ -63,7 +63,7 @@ class Lobby extends StatelessWidget {
             child: Container(
               padding: EdgeInsets.all(30),
               decoration: BoxDecoration(
-                  color: Colors.grey[200],
+                  color: Color(0xFFF1E6FF),
                   borderRadius: BorderRadius.circular(12)),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -90,7 +90,7 @@ class Lobby extends StatelessWidget {
             child: Container(
               padding: EdgeInsets.all(30),
               decoration: BoxDecoration(
-                  color: Colors.grey[200],
+                  color: Color(0xFFF1E6FF),
                   borderRadius: BorderRadius.circular(12)),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -117,7 +117,7 @@ class Lobby extends StatelessWidget {
             child: Container(
               padding: EdgeInsets.all(30),
               decoration: BoxDecoration(
-                  color: Colors.grey[200],
+                  color: Color(0xFFF1E6FF),
                   borderRadius: BorderRadius.circular(12)),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
